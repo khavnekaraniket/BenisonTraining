@@ -6,6 +6,7 @@ import { useSelector } from 'react-redux';
 // import store from './store';
 import { Route } from 'react-router-dom';
 
+
 function App() {
   const mystate=useSelector((state)=>state.logged);
   return (
@@ -15,7 +16,7 @@ function App() {
         <div style={{display:mystate.loggedIn?"none":"block "}}>
         <nav className="navbar navbar-expand-lg bg-light" style={{ boxShadow: "0 10px 10px 0 rgba(0,0,0,.4)" }}>
           <div className="container-fluid">
-            <a className="navbar-brand" href="/">
+            <a className="navbar-brand" href="/Registration">
               Benison Training 
             </a>
             {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,6 +29,7 @@ function App() {
                     Registration
                   </a>
                 </li>
+                
                  {/* <li className="nav-item">
                   <a className="nav-link" href="/Navbar">
                     Contact
@@ -74,7 +76,7 @@ function App() {
             
          <Routes>
           <Route path="Registration" element={<Registration/>}></Route>
-          {/* <Route path="Registration" element={<NavBar/>}></Route> */}
+          
                {/* <Route path="customerregistration" element={<CustomerRegistration/>}></Route>
               <Route path="customerregistrationcopy" element={<CustomerRegistrationcopy/>}></Route>
               <Route

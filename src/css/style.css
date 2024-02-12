@@ -20,7 +20,7 @@
     height: 50px;
   }
   .registration-form button[type="submit"] {
-    margin: 5px;
+    margin: 5px 10px;
     padding: 5px 10px; /* Adjust padding to make the button smaller */
     font-size: 14px; /* Adjust font size if needed */
     width: 100px; /* Set width to 200px */
