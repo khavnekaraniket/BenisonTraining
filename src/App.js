@@ -3,10 +3,8 @@ import './App.css';
 import Registration from './component/RegistrationPage';
 import { Routes } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import store from './store';
+// import store from './store';
 import { Route } from 'react-router-dom';
-
-
 
 function App() {
   const mystate=useSelector((state)=>state.logged);
