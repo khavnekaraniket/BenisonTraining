@@ -161,6 +161,7 @@ function Registration() {
     updatedData.splice(index, 1);
     setTableData(updatedData);
   };
+  // to handal clear
   const handleClear = () => {
     setFormData({
       firstName: '',
