@@ -193,7 +193,7 @@ function Registration() {
       <div className="registration-wrapper" style={{ backgroundColor: '#fff', padding: '20px', borderRadius: '10px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)', width: '60%' }}>
         <h1 className="text-center mb-4" style={{ color: '#333' }}>Registration page</h1>
         <form className="needs-validation registration-form" noValidate onSubmit={handleSubmit}>
-          {/* Your form fields... */}
+          
           <div className="row">
             <div className="col-md-6">
               <div className="form-group">

@@ -11,8 +11,8 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 60%; /* You can adjust the width as needed */
-  min-height: 600px; /* Set a minimum height to prevent size changes */
+  width: 60%; 
+  min-height: 600px; 
 }
 
 .registration-form {
@@ -50,7 +50,10 @@
 
 }
 
+.nav-item{
+ margin: 0px 20px;
 
+}
 /* .editDelete{
 
   margin: 10px 10px 10px 10px ;
