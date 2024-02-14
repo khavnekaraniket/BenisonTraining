@@ -232,12 +232,12 @@ function Registration() {
                       Female
                     </label>
                   </div> */}
-                  {/* <div className="form-check form-check-inline">
+                  <div className="form-check form-check-inline">
                     <input className="form-check-input" type="radio" name="gender" id="transgender" value="transgender" checked={formData.gender === "transgender"} onChange={handleChange} />
                     <label className="form-check-label" htmlFor="transgender">
                       Transgender
                     </label>
-                  </div> */}
+                  </div>
                 </div>
                 {validationMessages.gender && <div className="text-danger">{validationMessages.gender}</div>}
               </div>
