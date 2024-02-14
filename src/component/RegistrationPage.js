@@ -39,10 +39,9 @@ function Registration() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Validate each field
-    const newValidationMessages = { ...validationMessages };
-    let isValid = true;
-
+  // Validate each field
+  const newValidationMessages = { ...validationMessages };
+  let isValid = true;
     
     if (!formData.firstName) {
       newValidationMessages.firstName = 'Please enter first name';
@@ -121,13 +120,13 @@ function Registration() {
       newValidationMessages.address = '';
     }
 
-    // If any field is invalid, set validation messages and return
+    
     if (!isValid) {
       setValidationMessages(newValidationMessages);
       return;
     }
 
-    // If all fields are valid, continue with form submission
+    
     if (editIndex !== null) {
       const updatedData = [...tableData];
       updatedData[editIndex] = editFormData;
@@ -138,6 +137,9 @@ function Registration() {
     }
     setSubmitted(true);
     setIsEditModalOpen(false); 
+    setValidationMessages({}); // Clear validation messages
+  setSubmitted(true);
+  setIsEditModalOpen(false);
   };
 
   const handleChange = (e) => {
@@ -182,10 +184,15 @@ function Registration() {
   };
 
   return (
-    <div className="container d-flex justify-content-center align-items-center" style={{ minHeight: '100vh', backgroundColor: '#f4f4f1' }}>
+    // <div className="container d-flex justify-content-center align-items-center" style={{ minHeight: '100vh', backgroundColor: '#f4f4f1' }}>
+    //   <div className="registration-wrapper" style={{ backgroundColor: '#fff', padding: '20px', borderRadius: '10px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)', width: '60%' }}>
+    //     <h1 className="text-center mb-4" style={{ color: '#333' }}>Registration page</h1>
+    //     <form className="needs-validation registration-form" noValidate onSubmit={handleSubmit}>
+    <div className="container d-flex  flex-wrap" style={{ minHeight: '100vh', backgroundColor: '#f4f4f1' }}>
       <div className="registration-wrapper" style={{ backgroundColor: '#fff', padding: '20px', borderRadius: '10px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)', width: '60%' }}>
         <h1 className="text-center mb-4" style={{ color: '#333' }}>Registration page</h1>
         <form className="needs-validation registration-form" noValidate onSubmit={handleSubmit}>
+          {/* Your form fields... */}
           <div className="row">
             <div className="col-md-6">
               <div className="form-group">
@@ -277,7 +284,7 @@ function Registration() {
         </form>
       </div>
       {submitted && (
-        <div>
+        <div className='dataSub'>
           <h2>Form Data:</h2>
           <table className="table">
             <thead>
@@ -310,9 +317,10 @@ function Registration() {
                   <td>{data.address}</td>
                   <td>
 
-                    
+                    <div className='editDelete'>
                     <button className="btn btn-primary"  onClick={() => handleEdit(index)}>Edit</button>
                     <button className="btn btn-danger" onClick={() => handleDelete(index)}>Delete</button>
+                    </div>
                   </td>
                 </tr>
               ))}
@@ -332,3 +340,5 @@ function Registration() {
 }
 
 export default Registration;
+
+

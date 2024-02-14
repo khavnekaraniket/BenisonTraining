@@ -7,6 +7,7 @@ import { useSelector } from 'react-redux';
 import { Route } from 'react-router-dom';
 
 
+
 function App() {
   const mystate=useSelector((state)=>state.logged);
   return (
@@ -17,7 +18,7 @@ function App() {
         <nav className="navbar navbar-expand-lg bg-light" style={{ boxShadow: "0 10px 10px 0 rgba(0,0,0,.4)" }}>
           <div className="container-fluid">
             <a className="navbar-brand" href="/Registration">
-              Benison Training 
+              Benison 
             </a>
             {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
@@ -73,7 +74,7 @@ function App() {
             style={{ textAlign: "center" }}
             className="text-black shadow rounded-3 container-fluid"
           >
-            
+           
          <Routes>
           <Route path="Registration" element={<Registration/>}></Route>
           
@@ -136,6 +137,7 @@ function App() {
 
                
                 </  Routes>
+                
                 
                 </div>
         </div>

@@ -1,30 +1,58 @@
+/* .container {
+  min-height: 100vh;
+ 
+  justify-content: center;
+  align-items: center;
+} */
+
+.registration-wrapper {
+  background-color: #fff;
+  margin: 50px 200px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 60%; /* You can adjust the width as needed */
+  min-height: 600px; /* Set a minimum height to prevent size changes */
+}
+
 .registration-form {
-    padding: 10px; /* Reduced padding */
-    border: 1px solid #ccc;
-    border-radius: 3px; /* Reduced border radius */
-    /* width: 500px; 
-    height: 950px; */
-  }
   
-  .registration-form .form-label {
-    text-align: left;
-    display: block; /* Display each label on a new line */
-  }
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.registration-form .form-label {
+  text-align: left;
+  display: block;
+}
+
+/* Styles for the submit button */
+.registration-form button[type="clear"] {
+  padding: 5px 10px;
+  margin: 5px;
+  font-size: 14px;
+  width: 100px;
+  height: 50px;
+}
+
+.registration-form button[type="submit"] {
+  margin: 5px 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  width: 100px;
+  height: 50px;
+}
+
+.dataSub{
+  margin: 0px 0px 0px 40px ;
   
-  /* Styles for the submit button */
-  .registration-form button[type="clear"]{
-    padding: 5px 10px; /* Adjust padding to make the button smaller */
-    margin:  5px;
-    font-size: 14px; /* Adjust font size if needed */
-    width: 100px; /* Set width to 200px */
-    height: 50px;
-  }
-  .registration-form button[type="submit"] {
-    margin: 5px 10px;
-    padding: 5px 10px; /* Adjust padding to make the button smaller */
-    font-size: 14px; /* Adjust font size if needed */
-    width: 100px; /* Set width to 200px */
-    height: 50px;
-  }
+
+}
+
+
+/* .editDelete{
+
+  margin: 10px 10px 10px 10px ;
   
-  
+} */
