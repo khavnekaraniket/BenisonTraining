@@ -1,0 +1,21 @@
+# DataSource settings
+spring.datasource.url=jdbc:postgresql://localhost:5432/Test 
+
+spring.datasource.username=postgres
+spring.datasource.password=root
+spring.datasource.driver-class-name=org.postgresql.Driver
+server.port=8080
+
+
+# Hibernate properties
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+
+# Show SQL
+spring.jpa.show-sql=true
+
+#logging.level.org.springframework=DEBUG
+#logging.level.org.hibernate=DEBUG
+
+
+server.contextPath = /benison

@@ -1,0 +1,705 @@
+Microsoft Windows [Version 10.0.19045.3930]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git init
+Initialized empty Git repository in C:/Users/AniketKhavnekar/eclipse-workspace/.git/
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git add .
+warning: in the working copy of '.metadata/.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.core.resources/.history/15/d0679423bdcb001e1c7b962db1ca1e5e', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.core.resources/.history/22/10e3267bd6cb001e1890b0329f49742b', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.core.resources/.history/22/c07fcbd7d3cb001e1890b0329f49742b', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.core.resources/.history/29/0054f50102cc001e1890b0329f49742b', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.core.resources/.history/2c/0092381ebfcb001e1c7b962db1ca1e5e', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.core.resources/.history/36/20d115c261cb001e1c7b962db1ca1e5e', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.core.resources/.history/38/f05b071003cc001e1890b0329f49742b', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.core.resources/.history/39/a01b3544becb001e1c7b962db1ca1e5e', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.core.resources/.history/3a/d046679ebdcb001e1c7b962db1ca1e5e', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.core.resources/.history/44/a0e7a931bdcb001e1c7b962db1ca1e5e', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.core.resources/.history/4b/d0196e39dacb001e1890b0329f49742b', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.core.resources/.history/51/90b5efb4bdcb001e1c7b962db1ca1e5e', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.core.resources/.history/76/908085f8d7cb001e1890b0329f49742b', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.core.resources/.history/96/80af0a4d67cb001e1c7b962db1ca1e5e', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.core.resources/.history/97/a0a957f4bccb001e1c7b962db1ca1e5e', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.core.resources/.history/a0/a0c57295dacb001e1890b0329f49742b', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.core.resources/.history/a6/90c86d0affcb001e1890b0329f49742b', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.core.resources/.history/a9/80af5be5becb001e1c7b962db1ca1e5e', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.core.resources/.history/af/f0fa372000cc001e1890b0329f49742b', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.core.resources/.history/be/20cf6d1800cc001e1890b0329f49742b', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.core.resources/.history/d7/000f2dafbccb001e1c7b962db1ca1e5e', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.core.resources/.history/e4/40c7ec4c67cb001e1c7b962db1ca1e5e', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.core.resources/.history/e4/f0e149cebdcb001e1c7b962db1ca1e5e', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.core.resources/.history/f6/90e1fe2bd9cb001e1890b0329f49742b', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.jdt.core/indexNamesMap.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/BenisonTraining/2024/2/7/refactorings.index', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.m2e.logback/logback.2.2.1.20231030-1438.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.wildwebdeveloper.xml/system-catalog.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/baseBrowserLibrary.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/browserWindow.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/xhr.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BenisonTraining/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BenisonTraining/.mvn/wrapper/maven-wrapper.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BenisonTraining/mvnw', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BenisonTraining/mvnw.cmd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BenisonTraining/pom.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BenisonTraining/src/main/java/com/example/demo/BenisonTrainingApplication.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BenisonTraining/src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BenisonTraining/src/test/java/com/example/demo/BenisonTrainingApplicationTests.java', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git commit -m "backend "
+[master (root-commit) d6d5cba] backend
+ 385 files changed, 29793 insertions(+)
+ create mode 100644 .metadata/.lock
+ create mode 100644 .metadata/.log
+ create mode 100644 .metadata/.mylyn/repositories.xml.zip
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/1/309042d066cb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/10/d0a5c44c67cb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/10/e079a5a8ffcb001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/15/d0679423bdcb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/1d/00d4f22e67cb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/22/10e3267bd6cb001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/22/c07fcbd7d3cb001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/29/0054f50102cc001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/2b/d08065c833cb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/2c/0092381ebfcb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/2c/a02424f065cb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/32/d077209ed3cb001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/35/509c44fee6cb001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/36/20d115c261cb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/38/f05b071003cc001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/39/a01b3544becb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/3a/d046679ebdcb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/3d/7053e698d8cb001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/42/30024d2ed7cb001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/44/a0e7a931bdcb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/47/00d86ac833cb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/4a/90fd7397becb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/4b/d0196e39dacb001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/51/90b5efb4bdcb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/5c/00d91c37e9cb001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/61/b00fd3c833cb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/6c/a0110f6cdacb001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/73/50a93fc833cb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/73/c07760c833cb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/76/908085f8d7cb001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/7e/e0fa6cc833cb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/8e/a084846ebdcb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/90/103e1821dacb001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/93/00753cc833cb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/96/5004a130d7cb001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/96/80af0a4d67cb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/97/a0a957f4bccb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/9c/001f8470dacb001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/a0/a0c57295dacb001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/a6/90c86d0affcb001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/a8/c01d6fc833cb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/a9/0057bb4c67cb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/a9/80af5be5becb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/af/f0fa372000cc001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/b/a0f84bb365cb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/b6/f044b7e3d7cb001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/b7/f0515f2064cb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/be/20cf6d1800cc001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/c3/9040bf21e7cb001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/c7/c0e862c833cb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/c9/e0f0c0abe2cb001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/d7/000f2dafbccb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/d9/f0bdcc32d7cb001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/de/d09430bb66cb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/df/5005f60066cb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/e0/90f238c833cb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/e0/e0c1d8ebbecb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/e4/40c7ec4c67cb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/e4/f0e149cebdcb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/e5/4074699ebecb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/e9/300403ced9cb001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/eb/006768c833cb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/ef/006865cd02cc001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/f2/e0e9db24e7cb001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/f3/c07f872967cb001e1c7b962db1ca1e5e
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/f6/90e1fe2bd9cb001e1890b0329f49742b
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.location
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.markers.snap
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.syncinfo.snap
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/BDbackend/.indexes/properties.index
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/BDbackend/.location
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/BDbackend/.markers
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/BDbackend/.markers.snap
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/BDbackend/.syncinfo.snap
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/BDbackend/org.eclipse.jdt.core/state.dat
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/BenisonTraining/.indexes/af/history.index
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/BenisonTraining/.indexes/e4/b9/22/81/96/e3/3f/history.index
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/BenisonTraining/.indexes/e4/b9/22/81/96/e3/5e/history.index
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/BenisonTraining/.indexes/e4/b9/22/81/96/e3/68/history.index
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/BenisonTraining/.indexes/e4/b9/22/81/96/e3/a9/history.index
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/BenisonTraining/.indexes/e4/b9/22/81/96/e3/history.index
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/BenisonTraining/.indexes/e4/b9/db/history.index
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/BenisonTraining/.indexes/history.index
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/BenisonTraining/.indexes/properties.index
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/BenisonTraining/.markers
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/BenisonTraining/.markers.snap
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/BenisonTraining/.syncinfo.snap
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/BikeDocter-main/.location
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/BikeDocter-main/.markers
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/BikeDocter-main/.markers.snap
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/BikeDocter-main/.syncinfo.snap
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.root/10.tree
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/10.snap
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/Docker.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.mpc.ui.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.debug.ui.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.junit.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.jsp.core.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.apt.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.pde.api.tools.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.navigator.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.urischeme.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.ws.service.policy.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.springframework.ide.eclipse.imports.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.springsource.ide.eclipse.commons.ui.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.debug.core/.launches/BDbackendApplication.launch
+ create mode 100644 .metadata/.plugins/org.eclipse.debug.core/.launches/BDbackendApplicationTests.launch
+ create mode 100644 .metadata/.plugins/org.eclipse.debug.core/.launches/BenisonTrainingApplication.launch
+ create mode 100644 .metadata/.plugins/org.eclipse.debug.core/.launches/BenisonTrainingApplicationTests.launch
+ create mode 100644 .metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+ create mode 100644 .metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.project
+ create mode 100644 .metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.settings/org.eclipse.core.resources.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.epp.mpc.ui/dialog_settings.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.equinox.p2.ui/dialog_settings.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/100545698.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1005567293.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1014499306.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1091835403.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1117173159.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1122932776.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1127593801.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1137889943.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1179100244.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1188540128.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1242942740.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1255115193.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1295603524.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1301929301.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/132354251.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1352342009.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1359066976.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1377384723.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1377855891.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1379774591.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1386214498.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1395852361.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1406037082.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1413511582.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1482210450.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1489349242.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1499093629.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1534381345.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1566576535.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1567224870.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/158121067.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1640060726.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1643311381.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1663879485.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1665562491.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1667139946.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1669275620.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1669400136.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1683383506.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1747026156.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1747764803.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/175329160.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1754257553.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1803706244.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1816192953.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1865797976.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1878637395.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1946195540.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1975064043.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1978191576.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2014502254.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2046701144.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2061283906.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2078282899.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2112427073.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2179067228.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2194008148.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2207150800.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2207182585.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2212682450.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/228499183.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2328874859.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2334296152.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2335525274.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2387915826.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2391774317.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2401707158.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2428510794.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2461140256.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2474202659.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2547901455.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2603503843.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/261685033.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2640369298.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/264287481.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/264845572.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2669725197.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2701797825.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2731773985.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2737028684.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2741440621.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2763043905.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2803566580.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2805938485.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2811689922.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2816066593.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2821733065.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2859985306.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2864408560.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2979879066.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/2986604839.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/300613904.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3089250997.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3091618816.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3103839251.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3115948420.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3131730245.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3284561564.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3292025656.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3309936759.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3354051303.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3365984914.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3366778548.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/337201048.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3378920301.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3379359114.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3413725848.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3446110599.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/344965739.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3492917819.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3532255726.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3640414895.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3646847692.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3671727780.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3685070629.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3700255578.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3703250157.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3766583601.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3775926435.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3793926463.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3821914435.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3874205336.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3878703588.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3900375973.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3910308079.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3920642766.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3928981213.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3943996565.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3951921520.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/4007903242.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/4025344491.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/4154420757.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/4174970868.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/4176507870.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/4179605351.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/4215867319.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/4259574803.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/4287033582.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/4288653905.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/432317426.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/451344029.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/451808893.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/470058285.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/543811944.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/566591453.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/647320263.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/652780987.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/661026525.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/793597828.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/829187196.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/840571246.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/85372380.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/853999023.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/872048614.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/875717011.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/897264712.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/915630816.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/93024044.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/941047552.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/954634907.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/960915458.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/987214874.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/externalFilesCache
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/indexNamesMap.txt
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.launching/.install.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.ui/jdt-images/0.png
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.ui/jdt-images/1.png
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.ui/jdt-images/2.png
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.ui/jdt-images/3.png
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.ui/jdt-images/4.png
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.ui/jdt-images/5.png
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.ui/jdt-images/6.png
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.ui/jdt-images/7.png
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.ui/jdt-images/8.png
+ create mode 100644 .metadata/.plugins/org.eclipse.jst.j2ee.ui/dialog_settings.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/BenisonTraining/2024/2/7/refactorings.history
+ create mode 100644 .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/BenisonTraining/2024/2/7/refactorings.index
+ create mode 100644 .metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.m2e.core.ui/dialog_settings.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.m2e.core/BDbackend.lifecyclemapping
+ create mode 100644 .metadata/.plugins/org.eclipse.m2e.core/BenisonTraining.lifecyclemapping
+ create mode 100644 .metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser
+ create mode 100644 .metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties
+ create mode 100644 .metadata/.plugins/org.eclipse.m2e.jdt/BDbackend.container
+ create mode 100644 .metadata/.plugins/org.eclipse.m2e.jdt/BenisonTraining.container
+ create mode 100644 .metadata/.plugins/org.eclipse.m2e.logback/0.log
+ create mode 100644 .metadata/.plugins/org.eclipse.m2e.logback/logback.2.2.1.20231030-1438.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.mylyn.github.ui/avatars.ser
+ create mode 100644 .metadata/.plugins/org.eclipse.oomph.setup/workspace.setup
+ create mode 100644 .metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties
+ create mode 100644 .metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.tm.terminal.view.ui/.executables/data.properties
+ create mode 100644 .metadata/.plugins/org.eclipse.ui.editors/dialog_settings.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.ui.intro/dialog_settings.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.ui.intro/introstate
+ create mode 100644 .metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.wildwebdeveloper.xml/system-catalog.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.wst.internet.cache/cache.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps
+ create mode 100644 .metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/252390881.index
+ create mode 100644 .metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/2838345031.index
+ create mode 100644 .metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/3261891321.index
+ create mode 100644 .metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/3312773959.index
+ create mode 100644 .metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/3342071064.index
+ create mode 100644 .metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/3612511373.index
+ create mode 100644 .metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt
+ create mode 100644 .metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/baseBrowserLibrary.js
+ create mode 100644 .metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/browserWindow.js
+ create mode 100644 .metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/dom5.js
+ create mode 100644 .metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js
+ create mode 100644 .metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/xhr.js
+ create mode 100644 .metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat
+ create mode 100644 .metadata/.plugins/org.eclipse.wst.jsdt.ui/OpenTypeHistory.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.wst.jsdt.ui/QualifiedTypeNameHistory.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties
+ create mode 100644 .metadata/.plugins/org.eclipse.wst.validation/dep.index
+ create mode 100644 .metadata/.plugins/org.eclipse.wst.xml.core/default_catalog.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.wst.xml.core/system_catalog.xml
+ create mode 100644 .metadata/version.ini
+ create mode 100644 BenisonTraining/.gitignore
+ create mode 100644 BenisonTraining/.mvn/wrapper/maven-wrapper.jar
+ create mode 100644 BenisonTraining/.mvn/wrapper/maven-wrapper.properties
+ create mode 100644 BenisonTraining/mvnw
+ create mode 100644 BenisonTraining/mvnw.cmd
+ create mode 100644 BenisonTraining/pom.xml
+ create mode 100644 BenisonTraining/src/main/java/com/example/demo/BenisonTrainingApplication.java
+ create mode 100644 BenisonTraining/src/main/java/com/example/demo/controllers/ProjectController.java
+ create mode 100644 BenisonTraining/src/main/java/com/example/demo/entities/Project.java
+ create mode 100644 BenisonTraining/src/main/java/com/example/demo/repositories/ProjectRepo.java
+ create mode 100644 BenisonTraining/src/main/java/com/example/demo/services/ProjectService.java
+ create mode 100644 BenisonTraining/src/main/resources/application.properties
+ create mode 100644 BenisonTraining/src/test/java/com/example/demo/BenisonTrainingApplicationTests.java
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git remote add BenisonTraining https://github.com/khavnekaraniket/BenisonTraining.git
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream BenisonTraining master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git push --set-upstream BenisonTraining main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/khavnekaraniket/BenisonTraining.git'
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git push --set-upstream BenisonTraining master
+To https://github.com/khavnekaraniket/BenisonTraining.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/khavnekaraniket/BenisonTraining.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .metadata/.plugins/org.eclipse.m2e.logback/0.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git add .
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   .metadata/.plugins/org.eclipse.m2e.logback/0.log
+
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git commit -m "Initial commit"
+[master c87fe51] Initial commit
+ 1 file changed, 3 insertions(+)
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git remote add origin https://github.com/khavnekaraniket/BenisonTraining.git
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git push -f origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/khavnekaraniket/BenisonTraining.git'
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git remote -v
+BenisonTraining https://github.com/khavnekaraniket/BenisonTraining.git (fetch)
+BenisonTraining https://github.com/khavnekaraniket/BenisonTraining.git (push)
+origin  https://github.com/khavnekaraniket/BenisonTraining.git (fetch)
+origin  https://github.com/khavnekaraniket/BenisonTraining.git (push)
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git checkout main
+error: pathspec 'main' did not match any file(s) known to git
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git push origin main --force
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/khavnekaraniket/BenisonTraining.git'
+
+C:\Users\AniketKhavnekar\eclipse-workspace>
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git push origin backend --force
+error: src refspec backend does not match any
+error: failed to push some refs to 'https://github.com/khavnekaraniket/BenisonTraining.git'
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git push origin backend --force
+error: src refspec backend does not match any
+error: failed to push some refs to 'https://github.com/khavnekaraniket/BenisonTraining.git'
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git remote add origin https://github.com/khavnekaraniket/BenisonTraining.git
+error: remote origin already exists.
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git add .
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git push -u origin backend
+error: src refspec backend does not match any
+error: failed to push some refs to 'https://github.com/khavnekaraniket/BenisonTraining.git'
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git commit -m "initial commit"
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git push origin backend
+error: src refspec backend does not match any
+error: failed to push some refs to 'https://github.com/khavnekaraniket/BenisonTraining.git'
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/khavnekaraniket/BenisonTraining.git'
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git push origin HEAD:main
+To https://github.com/khavnekaraniket/BenisonTraining.git
+ ! [rejected]        HEAD -> main (fetch first)
+error: failed to push some refs to 'https://github.com/khavnekaraniket/BenisonTraining.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git pull origin origin HEAD:main
+fatal: couldn't find remote ref origin
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git pull origin HEAD:main
+remote: Enumerating objects: 108, done.
+remote: Counting objects: 100% (108/108), done.
+remote: Compressing objects: 100% (72/72), done.
+remote: Total 108 (delta 46), reused 89 (delta 30), pack-reused 0
+Receiving objects: 100% (108/108), 209.31 KiB | 2.91 MiB/s, done.
+Resolving deltas: 100% (46/46), done.
+From https://github.com/khavnekaraniket/BenisonTraining
+ * [new ref]         HEAD       -> main
+fatal: refusing to merge unrelated histories
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git push origin HEAD:main
+To https://github.com/khavnekaraniket/BenisonTraining.git
+ ! [rejected]        HEAD -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/khavnekaraniket/BenisonTraining.git'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+hint: counterpart. If you want to integrate the remote changes, use 'git pull'
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git pull origin origin HEAD:main --allow-unrelated-histories
+fatal: couldn't find remote ref origin
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git pull origin HEAD:main --allow-unrelated-histories
+Merge made by the 'ort' strategy.
+ .gitignore                        |    23 +
+ README.md                         |    75 +
+ package-lock.json                 | 18607 ++++++++++++++++++++++++++++++++++++
+ package.json                      |    45 +
+ public/Benison-Logo-Dark.png      |   Bin 0 -> 4093 bytes
+ public/favicon.ico                |   Bin 0 -> 3870 bytes
+ public/index.html                 |    45 +
+ public/logo192.png                |   Bin 0 -> 5347 bytes
+ public/logo512.png                |   Bin 0 -> 9664 bytes
+ public/manifest.json              |    25 +
+ public/robots.txt                 |     3 +
+ src/App.css                       |    38 +
+ src/App.js                        |    50 +
+ src/App.test.js                   |     8 +
+ src/all.zip                       |   Bin 0 -> 9003 bytes
+ src/component/EditModal.js        |    42 +
+ src/component/FooterPage.js       |    16 +
+ src/component/NavBarPage.js       |    78 +
+ src/component/RegistrationPage.js |   345 +
+ src/css/NavBarPage.css            |    45 +
+ src/css/style.css                 |    61 +
+ src/dumpfiles/AppDump.js          |   169 +
+ src/dumpfiles/FooterPageDump.js   |    19 +
+ src/index.css                     |    13 +
+ src/index.js                      |    26 +
+ src/logo.svg                      |     1 +
+ src/reportWebVitals.js            |    13 +
+ src/setupTests.js                 |     5 +
+ src/slice.js                      |    18 +
+ src/store.js                      |    12 +
+ 30 files changed, 19782 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/Benison-Logo-Dark.png
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/index.html
+ create mode 100644 public/logo192.png
+ create mode 100644 public/logo512.png
+ create mode 100644 public/manifest.json
+ create mode 100644 public/robots.txt
+ create mode 100644 src/App.css
+ create mode 100644 src/App.js
+ create mode 100644 src/App.test.js
+ create mode 100644 src/all.zip
+ create mode 100644 src/component/EditModal.js
+ create mode 100644 src/component/FooterPage.js
+ create mode 100644 src/component/NavBarPage.js
+ create mode 100644 src/component/RegistrationPage.js
+ create mode 100644 src/css/NavBarPage.css
+ create mode 100644 src/css/style.css
+ create mode 100644 src/dumpfiles/AppDump.js
+ create mode 100644 src/dumpfiles/FooterPageDump.js
+ create mode 100644 src/index.css
+ create mode 100644 src/index.js
+ create mode 100644 src/logo.svg
+ create mode 100644 src/reportWebVitals.js
+ create mode 100644 src/setupTests.js
+ create mode 100644 src/slice.js
+ create mode 100644 src/store.js
+
+C:\Users\AniketKhavnekar\eclipse-workspace>git push origin HEAD:main
+Enumerating objects: 506, done.
+Counting objects: 100% (506/506), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (447/447), done.
+error: RPC failed; HTTP 400 curl 92 HTTP/2 stream 7 was not closed cleanly: CANCEL (err 8)
+send-pack: unexpected disconnect while reading sideband packet
+Writing objects: 100% (505/505), 55.33 MiB | 918.00 KiB/s, done.
+Total 505 (delta 61), reused 0 (delta 0), pack-reused 0
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+
+C:\Users\AniketKhavnekar\eclipse-workspace>
