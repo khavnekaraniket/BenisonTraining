@@ -1,0 +1,44 @@
+.footerPage {
+  background-color: #f8f9fa;
+  padding: 2px 0;
+  position: fixed; 
+  bottom: 0; 
+  width: 100%; 
+}
+
+.footerPage ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.footerPage ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footerPage ul li:last-child {
+  margin-right: 0;
+}
+
+.footerPage ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.footerPage ul li a:hover {
+  color: #2991ff;
+}
+
+.footerPage p {
+  margin-top: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.footerDiv {
+  border-radius: 10px;
+  border-color: black;
+}

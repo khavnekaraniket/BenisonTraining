@@ -26,10 +26,7 @@ function App() {
 
             <Routes>
               <Route path="Registration" element={<Registration />}></Route>
-
-
             </  Routes>
-
             <Footerpage></Footerpage>
           </div>
 
@@ -39,10 +36,6 @@ function App() {
       <br />
 
     </div>
-
-
-
-
 
   );
 }

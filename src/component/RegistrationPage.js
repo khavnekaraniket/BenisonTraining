@@ -137,7 +137,7 @@ function Registration() {
     }
     setSubmitted(true);
     setIsEditModalOpen(false); 
-    setValidationMessages({}); // Clear validation messages
+    setValidationMessages({}); 
   setSubmitted(true);
   setIsEditModalOpen(false);
   };

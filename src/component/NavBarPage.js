@@ -1,3 +1,92 @@
+import { useSelector } from 'react-redux';
+import '../css/NavBarPage.css';
+
+function NavBarPage() {
+  const mystate = useSelector((state) => state.logged);
+
+  return (
+    <div className={mystate.loggedIn ? 'hidden' : 'visible'}>
+      <nav className="navbar">
+        <div className="navbar-container">
+          <a href="/" className="brand">
+            Benison Training
+          </a>
+          <ul className="nav-items">
+            <li className="nav-item">
+              <a href="/Home" className="nav-link">
+                Home
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="/Registration" className="nav-link">
+                Registration
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="/SignUp" className="nav-link">
+                SignUp
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  );
+}
+
+export default NavBarPage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // import { useSelector } from 'react-redux';
 
 // function NavBarPage(){
@@ -39,40 +128,3 @@
 // }
 // export default NavBarPage ;
 
-import { useSelector } from 'react-redux';
-import '../css/NavBarPage.css';
-
-function NavBarPage() {
-  const mystate = useSelector((state) => state.logged);
-
-  return (
-    <div className={mystate.loggedIn ? 'hidden' : 'visible'}>
-      <nav className="navbar">
-        <div className="navbar-container">
-          <a href="/" className="brand">
-            Benison Training
-          </a>
-          <ul className="nav-items">
-            <li className="nav-item">
-              <a href="/Home" className="nav-link">
-                Home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="/Registration" className="nav-link">
-                Registration
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="/SignUp" className="nav-link">
-                SignUp
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  );
-}
-
-export default NavBarPage;
