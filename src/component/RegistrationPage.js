@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import EditModal from './EditModal'; 
 
 function Registration() {
-  // Initial data, stored in local variable 
+
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -189,7 +189,7 @@ function Registration() {
     //   <div className="registration-wrapper" style={{ backgroundColor: '#fff', padding: '20px', borderRadius: '10px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)', width: '60%' }}>
     //     <h1 className="text-center mb-4" style={{ color: '#333' }}>Registration page</h1>
     //     <form className="needs-validation registration-form" noValidate onSubmit={handleSubmit}>
-    <div className="container d-flex justify-content-center flex-wrap" style={{ minHeight: '100vh', backgroundColor: '#f4f4f1' }}>
+    <div className="container d-flex  flex-wrap" style={{ minHeight: '100vh', backgroundColor: '#f4f4f1' }}>
       <div className="registration-wrapper" style={{ backgroundColor: '#fff', padding: '20px', borderRadius: '10px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)', width: '60%' }}>
         <h1 className="text-center mb-4" style={{ color: '#333' }}>Registration page</h1>
         <form className="needs-validation registration-form" noValidate onSubmit={handleSubmit}>
